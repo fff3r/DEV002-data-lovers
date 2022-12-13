@@ -7,6 +7,8 @@ import { filterData,
   
 } from '../src/data.js';
 
+// DATA CREADA PARA PROBAR
+
 const data = {
  films: [
    {
@@ -75,7 +77,7 @@ const data = {
  ],
 }
 
-
+//RESPUESTAS ESPERADAS
 
 
 const arrExpected = [{ "id": "f1",
@@ -150,6 +152,8 @@ const arrExpectedDesc = [
 
 const arrExpectedMale = 4;
 const arrExpectedFemale = 2;
+
+// FUNCIONES 5
 
 describe('filterData', () => {
 
