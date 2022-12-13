@@ -93,7 +93,7 @@ locacion.forEach(city => {
 
 });
 
-var span = document.getElementsByClassName("close")[0];
+// var span = document.getElementsByClassName("close")[0];
 
 function showModalCharacter(element) {
 
@@ -107,7 +107,6 @@ function showModalCharacter(element) {
                         <h2>${element.gender}</h2>`
                     
 }
-
 
 // CUANDO EL USUARIO HACE CLICK Y ABRE EL MODAL
 
