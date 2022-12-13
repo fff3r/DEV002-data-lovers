@@ -803,7 +803,8 @@ export default {
       "title": "Pom Poko",
       "description": "As the human city development encroaches on the raccoon population's forest and meadow habitat, the raccoons find themselves faced with the very real possibility of extinction. In response, the raccoons engage in a desperate struggle to stop the construction and preserve their home.",
       "director": "Isao Takahata",
-      "producer": "Toshio Suzuki",
+
+      "producer":"Toshio Suzuki",
       "poster": "https://static.wikia.nocookie.net/studio-ghibli/images/9/9e/Pom_Poko.jpg",
       "release_date": "1994",
       "rt_score": "78",
@@ -1865,7 +1866,7 @@ export default {
       "description": "14-year-old Arrietty and the rest of the Clock family live in peaceful anonymity as they make their own home from items 'borrowed' from the house's human inhabitants. However, life changes for the Clocks when a human boy discovers Arrietty.",
       "director": "Hiromasa Yonebayashi",
       "producer": "Toshio Suzuki",
-      "poster": "https://static.wikia.nocookie.net/studio-ghibli/images/4/46/The_Borrower_Arrietty.jpg",
+      "poster": "http://3.bp.blogspot.com/_EXgDI8DeN_E/TSC3AFKbnaI/AAAAAAAAGN8/A7qeJy1DzAE/s1600/arrietty_le_petit_monde_des_chapardeurs_poster.jpg",
       "release_date": "2010",
       "rt_score": "95",
       "people": [
