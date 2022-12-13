@@ -108,7 +108,6 @@ function showModalCharacter(element) {
                     
 }
 
-
 // CUANDO EL USUARIO HACE CLICK Y ABRE EL MODAL
 
 // Cuando el usuario haga click fuera del modal, se cierre
