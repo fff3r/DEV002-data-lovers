@@ -11,10 +11,8 @@ const showModal = document.querySelector(".modal-content");
 
 const posterMovies = document.querySelector('.profile-pic');
 const mainbackground = document.querySelector('.form_director');
-const vehiclesContainer = document.querySelector('.vehiculos-container');
 const containerLocacion = document.querySelector('.locaciones-contenedor');
 const promedio = document.querySelector('.promedio');
-
 
 
 
@@ -57,8 +55,6 @@ mainbackground.innerHTML += `  <div class="form_ranking">
 
 /*manipulación DOM  descripción de peliculas*/
 
-
-
 const person = movieData.people;
 person.forEach(element => {
     characteres.innerHTML += ` <div class="avatar"> <img
@@ -66,6 +62,8 @@ person.forEach(element => {
                                 <p>${element.name}</p>
                             </div>`
 });
+
+
 /*promedio de genero*/
 const hombre  = computeStatsMale(person)
 const mujer = computeStatsFemale(person)

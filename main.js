@@ -64,22 +64,19 @@ const renderProductores = (filmsProductor) => {
   });
 }
 
-
-
-
-
-
-iconMenu.addEventListener('click', toggleMobileMenu);
+iconMenu.addEventListener('', toggleMobileMenu);
 
 function toggleMobileMenu() {
   mobileMenu.classList.toggle('activo');
 }
 
 
-/*llamando al todo el API de studios Gilbli*/
+/*llamando al todo el API de studios Gilbli lista de peliculas*/
+
 const movies = data.films
 
-/* mostara poster de peliculas en el Dom*/
+/* captar titulo y mostrar el poster de peliculas en el Dom*/
+
 movies.forEach(movie => {
 
   contenedor.innerHTML += `<a class="movies" href ="movie?titulo=${movie.title}" > <img src= "${movie.poster}" class="img-movie" >
@@ -89,9 +86,11 @@ movies.forEach(movie => {
 });
 
 
+// Sort, asc y desc
+
+//  asc
 
 iconoSort.addEventListener('click', renderSortMenu)
-
 
 function renderSortMenu() {
   const sortMovies = sortByTitleAsc(movies);
@@ -103,7 +102,6 @@ const renderSortMovie = (sortMovies) => {
 
   sortMovies.forEach(elem => {
 
-
     contenedor.innerHTML += `<a class="movies" href ="movie?titulo=${elem.title}" > <img src= "${elem.poster}" class="img-movie" >
                                 
                            </a>`
@@ -111,6 +109,8 @@ const renderSortMovie = (sortMovies) => {
   });
 
 }
+
+//  Sort desc
 
 iconoSortDesc.addEventListener('click', renderSortMenuDesc)
 
@@ -135,8 +135,7 @@ const renderSortMovieDesc = (sortMoviesDesc) => {
 }
 
 
-/*orden alfabetico*/
-
+/* BUSCADOR orden alfabetico*/
 
 /*filtrar imagenes de peliculas para mostrar*/
 search.addEventListener("keypress", (event) => {
@@ -149,7 +148,7 @@ search.addEventListener("keypress", (event) => {
 
 });
 
-/* manipulacion del dom filter*/
+/* manipulacion del DOM filter*/
 const renderPosters = (result) => {
   contenedor.innerHTML = "";
   result.forEach(element => {
