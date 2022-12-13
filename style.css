@@ -346,6 +346,7 @@ nav {
   justify-content: space-evenly;
   padding-left: 3%;
   padding-right: 3%;
+
 }
 /* avata imagenes */
 .avatar img {
@@ -353,6 +354,7 @@ nav {
   width: 200px;
   height: 200px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.527);
+  
 }
 .avatar {
   position: relative;
@@ -404,6 +406,15 @@ h3 {
     font-size: 40px;
    }
 }
+
+@media (max-width: 1200px) {
+  .modal-content{
+ padding-bottom: 20%;
+
+  }
+
+}
+
 @media (max-width: 960px) {
   .life .titleMovie h1{
     font-size: 25px;
@@ -420,6 +431,17 @@ h3 {
     justify-content: center;
     height: 60px;
   }
+  .modal-content {
+    margin: 10%;
+    padding: 5%; 
+  }
+  h2{
+    font-size: 20px;
+  
+ }
+ }
+
+
   .life{
     margin-top: 5%;
   }
@@ -448,25 +470,19 @@ h3 {
   .navbar-search {
     display: none;
   }
-  .avatar2 {
-    display: none;
-  }
+ 
 }
+
 @media (min-width: 641px) {
   .mobile-menu {
     display: none;
   }
-  .avatar2 {
-    display: flex;
-  }
+}
 a:link {
   text-decoration: none;
 }
 /* pantalla up 2
-body{
-      margin: 0%;
-       min-height: 100%;
-   }
+
   /* Pagina Inicio */
 .container-inicio {
   background-color: #F074BC;
@@ -590,6 +606,8 @@ body{
     transform: scale(0.2)
   }
 }
+
+
 /* MODAL */
 #myBtn {
   position: absolute;
@@ -614,45 +632,43 @@ body{
   background-color: rgba(0, 0, 0, 0.4);
   /* transparencia */
 }
+
+
 /* Modal Content forma*/
 .modal-content {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
   color: #F1F1F1;
   background-color: #A6DA8E;
   border-radius: 30px;
   margin: 10%;
   padding: 5%;
-  width: 40%;
-  height: 60%;
-  /* top: 20px; */
+  width: 60%;
+  height: 50%;
+  justify-content: center;
+  right: 13%;
 }
-/* The Close Button */
-.close {
-  color: #AAAAAA;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-/* boton cerrado */
-.close:hover,
-.close:focus {
-  color: aqua;
-  text-decoration: none;
-  cursor: pointer;
-}
+
+/* //// */
 .avatar2 {
   position: relative;
-  left: 30%;
   background-size: 90%;
-  width: 300px;
-  height: 300px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.527);
+  right: -32%;
 }
+
+
+/* //// */
+
 .promedio {
   background-color: auto #6AAED4;
   padding: 5%;
 }
+
+/* //// */
 .footer-us {
   overflow: hidden;
   background-color: #25242449;

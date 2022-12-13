@@ -1,3 +1,4 @@
+
 import { filterData,
     computeStatsMale,
     computeStatsFemale ,
@@ -23,8 +24,6 @@ const queryString = window.location.search;
 
 
 const params = new URLSearchParams(queryString);
-
-
 
 const titleMov = params.get('titulo')
 
@@ -83,7 +82,6 @@ avatClick.forEach(personaje => {
 });
 
 
-
 const locacion = movieData.locations;
 locacion.forEach(city => {
     containerLocacion.innerHTML += `<div class="contenido-locacion">
@@ -102,23 +100,16 @@ function showModalCharacter(element) {
     modal.style.display = "block";
 
     showModal.innerHTML = `
-                        <img src="${element.img}" class="avatar2"> <br>
-                        <h2>${element.name}</h2> <br>
-                        <h2>${element.specie}</h2><br>
-                        <h2>${element.age} </h2><br>
-                        <h2>${element.gender} </h2><br>`
+                        <img src="${element.img}" class="avatar2"><br><br><br>
+                        <h2>${element.name}</h2> 
+                        <h2>${element.specie}</h2>
+                        <h2>${element.age} </h2>
+                        <h2>${element.gender}</h2>`
                     
 }
 
 
-
 // CUANDO EL USUARIO HACE CLICK Y ABRE EL MODAL
-
-
-// Cuando usuarix haga click en <span> (x), cierre modal 
-span.onclick = function () {
-    modal.style.display = "none";
-}
 
 // Cuando el usuario haga click fuera del modal, se cierre
 window.onclick = function (event) {
@@ -126,13 +117,4 @@ window.onclick = function (event) {
         modal.style.display = "none";
     }
 };
-
-//promedio
-
-
-
-
-
-
-
 

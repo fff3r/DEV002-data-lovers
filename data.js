@@ -6,8 +6,6 @@ export const filterData = (dataMovie, condition, cambiar) => {
 }
 
 
-
-
 //TODO: agregar dos parametros, como esta en el readme
 export const sortByTitleAsc = (data) => {
   return data.sort(function (a, b) {
